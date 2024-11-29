@@ -13,11 +13,11 @@ You will need Python 3.7 or higher to run the project. The required dependencies
 
 Project Structure
 
-├── app.py                # Main chatbot script
-├── docs/                 # Folder where your documents should be placed
-│   ├── document1.txt     # Sample document (add your own documents here)
-│   └── document2.txt     # Another sample document
-├── requirements.txt      # Python dependencies
-└── README.md             # Project documentation (this file)
+
+- **`app.py`**: The main script that runs the chatbot and handles the logic for document indexing, querying, and generating responses.
+- **`docs/`**: A folder where you should place your documents (in `.txt` format) for the chatbot to index and use for answering queries.
+- **`requirements.txt`**: A file that lists all the necessary Python packages and dependencies for running the project.
+- **`README.md`**: This file, providing an overview and instructions for using the project.
+
 
 
