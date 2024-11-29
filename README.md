@@ -1,4 +1,4 @@
-# LLM-based Chatbot
+# Chat with your PDFs
 
 This project demonstrates the use of LLM (Large Language Models) to build a simple chatbot that can respond to user queries based on the documents stored in a specific folder. The bot is powered by the Llama2 model and utilizes HuggingFace embeddings for semantic search. The documents are indexed using Chroma vector store, and you can easily interact with the bot through a command-line interface.
 
@@ -11,11 +11,13 @@ This project demonstrates the use of LLM (Large Language Models) to build a simp
 
 You will need Python 3.7 or higher to run the project. The required dependencies are listed in the `requirements.txt` file.
 
-## Installation
+Project Structure
 
-Follow the steps below to set up the project:
+├── app.py                # Main chatbot script
+├── docs/                 # Folder where your documents should be placed
+│   ├── document1.txt     # Sample document (add your own documents here)
+│   └── document2.txt     # Another sample document
+├── requirements.txt      # Python dependencies
+└── README.md             # Project documentation (this file)
 
-### 1. Clone the Repository
 
-git clone <repository_url>
-cd RAG_Project
